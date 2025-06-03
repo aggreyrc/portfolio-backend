@@ -22,7 +22,7 @@ api = Api(app)
 class Home(Resource):
     def get(self):
         return {
-               "message": " 🗂️ Welcome to tmy portfolio API 🗂️",
+               "message": " 🗂️ Welcome to to my portfolio API 🗂️",
                "api-version": "vi",
                "description": "Portfolio",
                "available_endpoints": [
